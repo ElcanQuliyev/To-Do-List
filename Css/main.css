@@ -1,0 +1,30 @@
+div.content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   translate: -50% -50%;
+}
+
+div.center{
+    display: flex;
+    gap: 16px;
+}
+
+input{
+    padding: 8px;
+}
+
+button{
+    padding: 5px 12px 5px 12px;
+}
+
+ul{
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+li{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
